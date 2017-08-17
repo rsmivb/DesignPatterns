@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FacadePattern.Factory1
+namespace FactoryPattern.Factory1
 {
     /// <summary>
     /// Simple factory using reflections

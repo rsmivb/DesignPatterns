@@ -44,7 +44,7 @@
     <Compile Include="IFormatter.cs" />
     <Compile Include="Manuscript.cs" />
     <Compile Include="Model.cs" />
-    <Compile Include="BridgePatternClient.cs" />
+    <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseFormatter.cs" />
     <Compile Include="StandardFormatter.cs" />

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FacadePattern.Factory2.Factories
+namespace FactoryPattern.Factory2.Factories
 {
     public class MiniCooperFactory : IAutoFactory
     {

@@ -45,7 +45,7 @@
     <Compile Include="Factory2\Factories\BMW355XiFactory.cs" />
     <Compile Include="Factory2\Factories\MiniCooperFactory.cs" />
     <Compile Include="Factory2\Factories\IAutoFactory.cs" />
-    <Compile Include="FactoryRun.cs" />
+    <Compile Include="Main.cs" />
     <Compile Include="Models\IAuto.cs" />
     <Compile Include="Models\MiniCooper.cs" />
     <Compile Include="Models\NullCar.cs" />

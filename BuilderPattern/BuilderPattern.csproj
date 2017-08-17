@@ -42,7 +42,7 @@
   <ItemGroup>
     <Compile Include="ClubSandwichBuilder.cs" />
     <Compile Include="MySandiwchBuilder.cs" />
-    <Compile Include="BuilderPatternClient.cs" />
+    <Compile Include="Main.cs" />
     <Compile Include="Sandwich.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SandwichBuilder.cs" />

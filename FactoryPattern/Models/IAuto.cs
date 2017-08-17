@@ -1,4 +1,4 @@
-﻿namespace FacadePattern
+﻿namespace FactoryPattern
 {
     public interface IAuto
     {

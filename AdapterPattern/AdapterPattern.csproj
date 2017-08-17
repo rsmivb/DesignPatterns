@@ -44,7 +44,7 @@
     <Compile Include="Library\DataRenderer.cs" />
     <Compile Include="Pattern.cs" />
     <Compile Include="PatternRenderer.cs" />
-    <Compile Include="AdapterPatternClient.cs" />
+    <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

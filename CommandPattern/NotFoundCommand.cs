@@ -7,7 +7,7 @@ namespace CommandPattern
         public string Name { get; set; }
         public void Execute()
         {
-            Console.WriteLine("Couldn't not find command: " + Name);
+            Console.WriteLine("Could not find command: " + Name);
         }
     }
 }

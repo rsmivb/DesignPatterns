@@ -48,5 +48,39 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AdapterPattern\AdapterPattern.csproj">
+      <Project>{29d28083-f351-4755-99dc-8d66a701d0b7}</Project>
+      <Name>AdapterPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BridgePattern\BridgePattern.csproj">
+      <Project>{975ae170-9e91-4e61-a03e-79c80f963aeb}</Project>
+      <Name>BridgePattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj">
+      <Project>{d3fda167-be9d-4ff7-a973-4565ea34330c}</Project>
+      <Name>BuilderPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChainOfReponsabilityPattern\ChainOfReponsabilityPattern.csproj">
+      <Project>{4ab2d2fe-cf3a-407d-b043-4e23e86565c5}</Project>
+      <Name>ChainOfReponsabilityPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommandPattern\CommandPattern.csproj">
+      <Project>{c689335e-e62a-498e-b5c6-afe6918719b6}</Project>
+      <Name>CommandPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CompositePattern\CompositePattern.csproj">
+      <Project>{541dffc7-8812-4f52-9603-4928010b2cbd}</Project>
+      <Name>CompositePattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DecoratorPattern\DecoratorPattern.csproj">
+      <Project>{88f72a04-0e3a-4d18-8eb6-88345b361f6c}</Project>
+      <Name>DecoratorPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FactoryPattern\FactoryPattern.csproj">
+      <Project>{6bc276b7-b691-40d2-8208-80f4a70b45db}</Project>
+      <Name>FactoryPattern</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

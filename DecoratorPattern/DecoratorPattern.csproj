@@ -43,7 +43,7 @@
     <Compile Include="ConcreteDecorators\Cheese.cs" />
     <Compile Include="ConcreteDecorators\Ham.cs" />
     <Compile Include="ConcreteDecorators\Pepper.cs" />
-    <Compile Include="DecoratorRun.cs" />
+    <Compile Include="Main.cs" />
     <Compile Include="Component\Pizza.cs" />
     <Compile Include="ConcreteComponents\LargePizza.cs" />
     <Compile Include="ConcreteComponents\MediumPizza.cs" />

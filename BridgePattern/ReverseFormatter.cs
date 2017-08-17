@@ -7,7 +7,9 @@ namespace BridgePattern
     {
         public string Format(string key, string value)
         {
-            return $"{key} <-> {value}".ToCharArray().Reverse().ToString();
+            char[] format = $"{key} <-> {value}".ToCharArray();
+            Array.Reverse(format);
+            return new string(format);
         }
     }
 }

@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace BridgePattern
 {
-    class Model
-    {
-    }
+
     public class FAQ : Manuscript
     {
         public FAQ(IFormatter _formatter) : base(_formatter)
         {
+            Questions = new Dictionary<string, string>();
         }
 
         public string Title { get; set; }

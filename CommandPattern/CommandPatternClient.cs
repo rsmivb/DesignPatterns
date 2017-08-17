@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace CommandPattern
 {
-    public class CommandProgram
+    public class CommandProgramClient
     {
-        public static void Run(string[] args)
+        public void Run(string[] args)
         {
+
             var availableCommands = GetAvailableCommands();
 
             if(args.Length == 0)
@@ -33,7 +34,7 @@ namespace CommandPattern
             }
         }
 
-        static IEnumerable<ICommandFactory> GetAvailableCommands()
+        public IEnumerable<ICommandFactory> GetAvailableCommands()
         {
             return new ICommandFactory[]
             {

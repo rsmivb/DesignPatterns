@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FacadePattern.Factory2
+namespace FactoryPattern.Factory2
 {
     public interface IAutoFactory
     {

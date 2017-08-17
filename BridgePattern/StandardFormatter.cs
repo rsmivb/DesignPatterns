@@ -10,7 +10,7 @@ namespace BridgePattern
     {
         public string Format(string key, string value)
         {
-            return $"{key} : {value}";    
+            return $"{key} : {value}";
         }
     }
 }
