@@ -10,7 +10,7 @@ namespace BuilderPattern
     {
         public void Run()
         {
-            var sandwichMaker = new SandwichMaker(new MySandiwchBuilder());
+            var sandwichMaker = new SandwichMaker(new MySandwichBuilder());
             sandwichMaker.BuildSandwich();
             var sandwich = sandwichMaker.GetSandwich();
             sandwich.Display();

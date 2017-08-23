@@ -8,8 +8,9 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>DesignPatterns</RootNamespace>
     <AssemblyName>DesignPatterns</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -77,9 +78,21 @@
       <Project>{88f72a04-0e3a-4d18-8eb6-88345b361f6c}</Project>
       <Name>DecoratorPattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\EventAggregatorPattern\EventAggregatorPattern.csproj">
+      <Project>{76b64e5f-f4dd-40ae-b314-4f5f85d7b422}</Project>
+      <Name>EventAggregatorPattern</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FactoryPattern\FactoryPattern.csproj">
       <Project>{6bc276b7-b691-40d2-8208-80f4a70b45db}</Project>
       <Name>FactoryPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlyweightPattern\FlyweightPattern.csproj">
+      <Project>{d350546e-73b4-4c87-a61d-bec5b136d8c5}</Project>
+      <Name>FlyweightPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InterpenterPattern\InterpenterPattern.csproj">
+      <Project>{72a0759f-cc06-4e57-88b4-1b283ca3cc8c}</Project>
+      <Name>InterpenterPattern</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{975AE170-9E91-4E61-A03E-79C80F963AEB}</ProjectGuid>
+    <ProjectGuid>{72A0759F-CC06-4E57-88B4-1B283CA3CC8C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BridgePattern</RootNamespace>
-    <AssemblyName>BridgePattern</AssemblyName>
+    <RootNamespace>InterpenterPattern</RootNamespace>
+    <AssemblyName>InterpenterPattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,14 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FancyFormmater.cs" />
-    <Compile Include="IFormatter.cs" />
-    <Compile Include="Manuscript.cs" />
-    <Compile Include="Model.cs" />
-    <Compile Include="Main.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReverseFormatter.cs" />
-    <Compile Include="StandardFormatter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

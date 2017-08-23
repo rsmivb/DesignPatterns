@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BuilderPattern
 {
-    public class MySandiwchBuilder : SandwichBuilder
+    public class MySandwichBuilder : SandwichBuilder
     {
         public override void AddCondiments()
         {

@@ -25,10 +25,16 @@ namespace DesignPatterns
             //RunCompositePattern();
 
             //RunDecoratorPattern();
+            RunFlyweightPattern();
 
-            RunFactoryPattern();
+            //RunFactoryPattern();
 
             Console.ReadKey();
+        }
+        private static void RunFlyweightPattern()
+        {
+            FlyweightPattern.Main flyweightPattern = new FlyweightPattern.Main();
+            flyweightPattern.Run();
         }
 
         private static void RunCompositePattern()
