@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.8
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{C77C15D8-2CFE-41A8-AD8F-85F57B974AB2}"
 EndProject
@@ -31,6 +31,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern.csproj", "{D350546E-73B4-4C87-A61D-BEC5B136D8C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpenterPattern", "InterpenterPattern\InterpenterPattern.csproj", "{72A0759F-CC06-4E57-88B4-1B283CA3CC8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesPattern", "RulesPattern\RulesPattern.csproj", "{F4F4687F-7AC5-4901-B8C4-90F2A7C535A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesPattern.Test", "RulesPattern.Test\RulesPattern.Test.csproj", "{13A92F06-0F3F-4AA7-ADAA-A795520B4EB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +90,14 @@ Global
 		{72A0759F-CC06-4E57-88B4-1B283CA3CC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72A0759F-CC06-4E57-88B4-1B283CA3CC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72A0759F-CC06-4E57-88B4-1B283CA3CC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F4687F-7AC5-4901-B8C4-90F2A7C535A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F4687F-7AC5-4901-B8C4-90F2A7C535A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F4687F-7AC5-4901-B8C4-90F2A7C535A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F4687F-7AC5-4901-B8C4-90F2A7C535A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A92F06-0F3F-4AA7-ADAA-A795520B4EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A92F06-0F3F-4AA7-ADAA-A795520B4EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A92F06-0F3F-4AA7-ADAA-A795520B4EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A92F06-0F3F-4AA7-ADAA-A795520B4EB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
