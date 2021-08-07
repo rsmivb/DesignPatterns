@@ -27,14 +27,7 @@ namespace NullObjectPattern.PatternApplied
 
         public IPerson GetById(int id)
         {
-            try
-            {
-                return _repository.First(p => p.Id == id);
-            }
-            catch (InvalidOperationException)
-            {
-                return new NullPerson();
-            }
+            return (IPerson) _repository.Find(p => p.Id == id) ?? new NullPerson();
         }
     }
 }

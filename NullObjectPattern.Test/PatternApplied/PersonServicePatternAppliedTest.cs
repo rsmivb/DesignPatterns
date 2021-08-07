@@ -9,10 +9,10 @@ namespace NullObjectPattern.Test.PatternApplied
     public class PersonServicePatternAppliedTest
     {
 
-        [Theory(DisplayName = "MyMemberDataTest Description")]
+        [Theory(DisplayName = "Null Object Pattern Applied")]
         [Trait("Category", "Integration")]
         [MemberData(nameof(DataTest))]
-        public void MyMemberDataTest(int id, IPerson expected)
+        public void GetPersonByIdTest(int id, IPerson expected)
         {
             var service = new PersonServicePatternApplied();
             var current = service.GetById(id);
