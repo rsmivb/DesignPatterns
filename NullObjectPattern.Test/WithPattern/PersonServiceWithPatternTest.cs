@@ -4,7 +4,7 @@ using Xunit;
 
 namespace NullObjectPattern.Test.PatternApplied
 {
-    public class PersonServicePatternAppliedTest
+    public class PersonServiceWithPatternTest
     {
 
         [Theory(DisplayName = "Null Object Pattern Applied")]
@@ -12,7 +12,7 @@ namespace NullObjectPattern.Test.PatternApplied
         [MemberData(nameof(DataTest))]
         public void GetPersonByIdTest(int id, IPerson expected)
         {
-            var service = new PersonServicePatternApplied();
+            var service = new PersonServiceWithPattern();
             var current = service.GetById(id);
             Assert.Equal(expected, current);
         }

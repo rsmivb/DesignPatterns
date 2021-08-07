@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace NullObjectPattern.PatternApplied
 {
-    public class PersonServicePatternApplied : IPersonService
+    public class PersonServiceWithPattern : IPersonService
     {
         private readonly List<Person> _repository;
 
-        public PersonServicePatternApplied()
+        public PersonServiceWithPattern()
         {
             _repository = new List<Person>{
                 new Person

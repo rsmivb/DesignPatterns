@@ -5,11 +5,11 @@ using Xunit;
 
 namespace RulesPattern.Test.WithoutPattern
 {
-    public class CalculatorDiscountNoPatternServiceTests
+    public class CalculatorDiscountWithoutPatternServiceTests
     {
         private readonly CalculatorDiscountNoPatternService _service;
 
-        public CalculatorDiscountNoPatternServiceTests()
+        public CalculatorDiscountWithoutPatternServiceTests()
         {
             _service = new CalculatorDiscountNoPatternService();
         }

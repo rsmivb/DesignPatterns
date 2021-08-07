@@ -36,9 +36,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RulesPattern", "RulesPatter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RulesPattern.Test", "RulesPattern.Test\RulesPattern.Test.csproj", "{13A92F06-0F3F-4AA7-ADAA-A795520B4EB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObjectPattern", "NullObjectPattern\NullObjectPattern.csproj", "{598A6FD0-F964-4F54-AF63-1A1CD9FD8E01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObjectPattern", "NullObjectPattern\NullObjectPattern.csproj", "{598A6FD0-F964-4F54-AF63-1A1CD9FD8E01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObjectPattern.Test", "NullObjectPattern.Test\NullObjectPattern.Test.csproj", "{0812482E-1D63-465C-9228-55826AC5481A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObjectPattern.Test", "NullObjectPattern.Test\NullObjectPattern.Test.csproj", "{0812482E-1D63-465C-9228-55826AC5481A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern.Test", "FactoryPattern.Test\FactoryPattern.Test.csproj", "{D51F9D3C-6261-4E3C-9E26-96399455D09F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -110,6 +112,10 @@ Global
 		{0812482E-1D63-465C-9228-55826AC5481A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0812482E-1D63-465C-9228-55826AC5481A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0812482E-1D63-465C-9228-55826AC5481A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51F9D3C-6261-4E3C-9E26-96399455D09F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51F9D3C-6261-4E3C-9E26-96399455D09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51F9D3C-6261-4E3C-9E26-96399455D09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51F9D3C-6261-4E3C-9E26-96399455D09F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
