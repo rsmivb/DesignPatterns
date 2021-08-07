@@ -15,7 +15,7 @@ namespace RulesPattern.Test.WithoutPattern
         }
 
         [Fact(DisplayName = "Apply 0% Discount  - Customer no rules - 000")]
-        [Trait("CalculateDiscount", "Service")]
+        [Trait("Rules", "Pattern")]
         public void ShouldReturnZeroDiscountTest()
         {
             var customer = new Customer
@@ -30,7 +30,7 @@ namespace RulesPattern.Test.WithoutPattern
         }
 
         [Fact(DisplayName = "Apply 5% Discount When Customer is Senior (BirthDate > 65) - 001")]
-        [Trait("CalculateDiscount", "Service")]
+        [Trait("Rules", "Pattern")]
         public void ShouldDiscountis5PercentTest()
         {
             var customer = new Customer
@@ -45,7 +45,7 @@ namespace RulesPattern.Test.WithoutPattern
         }
 
         [Fact(DisplayName = "Apply 10% Discount When Customer Purchase Date is his BirthDay - 002")]
-        [Trait("CalculateDiscount", "Service")]
+        [Trait("Rules", "Pattern")]
         public void ShouldCalculateDiscountWhenDateIsBirthDayTest()
         {
             var customer = new Customer
@@ -60,7 +60,7 @@ namespace RulesPattern.Test.WithoutPattern
         }
 
         [Fact(DisplayName = "Apply Discount 15% if Customer is Veteran - 003")]
-        [Trait("CalculateDiscount", "Service")]
+        [Trait("Rules", "Pattern")]
         public void ShouldCalculateDiscountWhenCustomerIsVeteranTest()
         {
             var customer = new Customer
@@ -75,7 +75,7 @@ namespace RulesPattern.Test.WithoutPattern
         }
 
         [Fact(DisplayName = "Apply Discount 2% based on Customer Purchase Date - 004")]
-        [Trait("CalculateDiscount", "Service")]
+        [Trait("Rules", "Pattern")]
         public void ShouldCalculateDiscountWhenCustomerFirstPurchaseIs5YearsOldTest()
         {
             var customer = new Customer
@@ -89,7 +89,7 @@ namespace RulesPattern.Test.WithoutPattern
         }
 
         [Fact(DisplayName = "Apply Discount 5% based on Customer Purchase Date - 004")]
-        [Trait("CalculateDiscount", "Service")]
+        [Trait("Rules", "Pattern")]
         public void ShouldCalculateDiscountWhenCustomerFirstPurchaseTest()
         {
             var customer = new Customer
@@ -100,6 +100,5 @@ namespace RulesPattern.Test.WithoutPattern
             var current = _service.CalculateDiscount(customer);
             Assert.Equal(expected, current);
         }
-
     }
 }

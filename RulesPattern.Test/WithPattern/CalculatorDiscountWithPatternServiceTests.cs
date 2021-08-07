@@ -10,7 +10,7 @@ namespace RulesPattern.Test
         private ICalculateDiscountService _service;
 
         [Fact(DisplayName = "Apply 0% Discount  - Customer no rules - 000")]
-        [Trait("CalculateDiscount", "Service")]
+        [Trait("Rules", "Pattern")]
         public void ShouldReturnZeroDiscountTest()
         {
             var customer = new Customer

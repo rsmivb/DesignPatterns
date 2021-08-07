@@ -43,11 +43,11 @@ namespace DesignPatterns
             compositePattern.Run();
         }
 
-        private static void RunFactoryPattern()
-        {
-            FactoryPattern.Main factoryPattern = new FactoryPattern.Main();
-            factoryPattern.Run();
-        }
+        //private static void RunFactoryPattern()
+        //{
+        //    FactoryPattern.Main factoryPattern = new FactoryPattern.Main();
+        //    factoryPattern.Run();
+        //}
 
         private static void RunDecoratorPattern()
         {
@@ -83,17 +83,6 @@ namespace DesignPatterns
             string[] args = new string[] { "UpdateQuantity", "19" };
             CommandPattern.CommandProgramClient commandDesign = new CommandPattern.CommandProgramClient();
             commandDesign.Run(args);
-        }
-
-        public static void RunRomanos()
-        {
-            Console.WriteLine("Começando os Numeros Romanos...");
-            Romanos romano = new Romanos();
-            string numeroDigitado = Console.ReadLine();
-            int conversao = Int32.Parse(numeroDigitado);
-            romano.CriarNumeroRomano(conversao);
-            Console.WriteLine("Finished....");
-            Console.ReadKey();
         }
     }
 }

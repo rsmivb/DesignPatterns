@@ -25,7 +25,7 @@ namespace NullObjectPattern.PatternApplied
 
         public IPerson GetById(int id)
         {
-            return (IPerson) _repository.Find(p => p.Id == id) ?? new NullPerson();
+            return _repository.Find(p => p.Id == id) as IPerson ?? new NullPerson();
         }
     }
 }

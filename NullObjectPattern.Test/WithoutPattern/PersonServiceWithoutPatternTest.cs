@@ -7,7 +7,7 @@ namespace NullObjectPattern.Test.WithoutPattern
     {
 
         [Theory(DisplayName = "PersonService should get Person by Id")]
-        [Trait("Person", "Service")]
+        [Trait("NullObject", "Pattern")]
         [MemberData(nameof(DataTest))]
         public void PersonServiceShouldGetPersonByIdTest(int id, IPerson expected)
         {

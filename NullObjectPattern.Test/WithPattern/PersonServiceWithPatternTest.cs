@@ -8,7 +8,7 @@ namespace NullObjectPattern.Test.PatternApplied
     {
 
         [Theory(DisplayName = "Null Object Pattern Applied")]
-        [Trait("Category", "Integration")]
+        [Trait("NullObject", "Pattern")]
         [MemberData(nameof(DataTest))]
         public void GetPersonByIdTest(int id, IPerson expected)
         {

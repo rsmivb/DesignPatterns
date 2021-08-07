@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Romanos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -81,10 +80,6 @@
     <ProjectReference Include="..\EventAggregatorPattern\EventAggregatorPattern.csproj">
       <Project>{76b64e5f-f4dd-40ae-b314-4f5f85d7b422}</Project>
       <Name>EventAggregatorPattern</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FactoryPattern\FactoryPattern.csproj">
-      <Project>{6bc276b7-b691-40d2-8208-80f4a70b45db}</Project>
-      <Name>FactoryPattern</Name>
     </ProjectReference>
     <ProjectReference Include="..\FlyweightPattern\FlyweightPattern.csproj">
       <Project>{d350546e-73b4-4c87-a61d-bec5b136d8c5}</Project>

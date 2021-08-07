@@ -16,9 +16,9 @@ namespace RulesPattern.Test.PatternApplied.Rules
         }
 
         [Theory(DisplayName = "Apply Discount (0%, 2%, 5%) based on Customer Purchase Date - 004")]
-        [Trait("CustomerDateOfFirstPurchase", "Rule")]
+        [Trait("Rules", "Pattern")]
         [MemberData(nameof(CustomerDateOfFirstPurchaseDataTest))]
-        public void MyMemberDataTest(Customer customer, decimal expected)
+        public void GivenCustoemrCalculatePurchaseDateDiscountTest(Customer customer, decimal expected)
         {
             decimal current = customerDateOfFirstPurchaseRule.Calculate(customer);
             Assert.Equal(expected, current);

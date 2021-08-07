@@ -16,9 +16,9 @@ namespace RulesPattern.Test.PatternApplied.Rules
         }
 
         [Theory(DisplayName = "Apply 5% Discount When Customer is Senior (BirthDate > 65) - 001")]
-        [Trait("CustomerBirthDate", "Rule")]
+        [Trait("Rules", "Pattern")]
         [MemberData(nameof(CustomerSeniorDataTest))]
-        public void MyMemberDataTest(Customer customer, decimal expected)
+        public void GivenCustomerCalculateSeniorDiscountTest(Customer customer, decimal expected)
         {
             decimal current = _customerSeniorRule.Calculate(customer);
             Assert.Equal(expected, current);

@@ -16,9 +16,9 @@ namespace RulesPattern.Test.PatternApplied.Rules
         }
 
         [Theory(DisplayName = "Apply 10% Discount When Customer Purchase Date is his BirthDay -002")]
-        [Trait("CustomerBirthDate", "Rule")]
+        [Trait("Rules", "Pattern")]
         [MemberData(nameof(CustomerBirthDateDataTest))]
-        public void MyMemberDataTest(Customer customer, decimal expected)
+        public void GivenCustomerCalculateBirthdayDsicountTest(Customer customer, decimal expected)
         {
             decimal current = birthDayRule.Calculate(customer);
             Assert.Equal(expected, current);

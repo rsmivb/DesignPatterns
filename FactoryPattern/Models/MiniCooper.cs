@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FactoryPattern
 {
@@ -22,6 +19,17 @@ namespace FactoryPattern
         public void TurnOn()
         {
             Console.WriteLine($"{Name} is turn off.");
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is MiniCooper cooper &&
+                   Name == cooper.Name;
+        }
+
+        public override int GetHashCode()
+        {
+            return 539060726 + EqualityComparer<string>.Default.GetHashCode(Name);
         }
     }
 }
