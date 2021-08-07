@@ -1,7 +1,6 @@
 using RulesPattern.Model;
 using RulesPattern.PatternApplied;
 using System;
-using System.Collections.Generic;
 using Xunit;
 
 namespace RulesPattern.Test

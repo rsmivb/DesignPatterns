@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace NullObjectPattern.WithoutPattern
+﻿namespace NullObjectPattern.WithoutPattern
 {
     public interface IPersonService
     {

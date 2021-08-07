@@ -1,7 +1,5 @@
 ﻿using NullObjectPattern.PatternApplied;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace NullObjectPattern.Test.PatternApplied

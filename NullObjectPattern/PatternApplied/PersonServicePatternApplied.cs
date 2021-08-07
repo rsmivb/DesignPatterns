@@ -1,7 +1,5 @@
 ﻿using NullObjectPattern.WithoutPattern;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace NullObjectPattern.PatternApplied
 {

@@ -1,5 +1,4 @@
 ﻿using RulesPattern.Model;
-using System;
 
 namespace RulesPattern.PatternApplied
 {
