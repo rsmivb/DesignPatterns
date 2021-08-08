@@ -55,11 +55,11 @@ namespace DesignPatterns
             decoratorPattern.Run();
         }
 
-        public static void RunBuilderPattern()
-        {
-            BuilderPattern.Main builderPattern = new BuilderPattern.Main();
-            builderPattern.Run();
-        }
+        //public static void RunBuilderPattern()
+        //{
+        //    BuilderPattern.Main builderPattern = new BuilderPattern.Main();
+        //    builderPattern.Run();
+        //}
 
         public static void RunChainResposability()
         {

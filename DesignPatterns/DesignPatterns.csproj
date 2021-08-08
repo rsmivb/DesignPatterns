@@ -57,10 +57,6 @@
       <Project>{975ae170-9e91-4e61-a03e-79c80f963aeb}</Project>
       <Name>BridgePattern</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj">
-      <Project>{d3fda167-be9d-4ff7-a973-4565ea34330c}</Project>
-      <Name>BuilderPattern</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ChainOfReponsabilityPattern\ChainOfReponsabilityPattern.csproj">
       <Project>{4ab2d2fe-cf3a-407d-b043-4e23e86565c5}</Project>
       <Name>ChainOfReponsabilityPattern</Name>

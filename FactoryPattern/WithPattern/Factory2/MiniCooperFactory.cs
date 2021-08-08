@@ -2,6 +2,6 @@
 {
     public class MiniCooperFactory : IAutoFactory
     {
-        public IAuto CreateAutomobile() => new MiniCooper()
+        public IAuto CreateAutomobile() => new MiniCooper();
     }
 }
